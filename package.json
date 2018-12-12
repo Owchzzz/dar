@@ -1,0 +1,38 @@
+{
+    "private": true,
+    "devDependencies": {
+        "babel-preset-stage-2": "^6.24.1",
+        "bootstrap-sass": "^3.3.7",
+        "esdoc": "^1.1.0",
+        "esdoc-standard-plugin": "^1.0.0",
+        "lodash": "^4.17.11",
+        "node-sass": "^4.10.0",
+        "vue": "^2.5.17"
+    },
+    "scripts": {
+        "dev": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "hot": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "production": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "document": "./node_modules/.bin/esdoc"
+    },
+    "dependencies": {
+        "ajv": "^6.5.2",
+        "axios": "^0.18.0",
+        "cross-env": "^5.1.6",
+        "dom-form-serializer": "^1.0.7",
+        "form-pack": "^1.1.0-0",
+        "form2obj": "^2.0.3",
+        "htmlform2json": "^1.0.0",
+        "lamejs": "^1.2.0",
+        "laravel-mix": "^2.1.11",
+        "moment": "^2.22.2",
+        "npm": "^6.1.0",
+        "sweet-modal-vue": "^2.0.0",
+        "sweetalert": "^2.1.2",
+        "toastr": "^2.1.4",
+        "vue-clip": "^1.0.0",
+        "vue-date-pick": "^1.0.2",
+        "vue-simple-uploader": "^0.5.6"
+    }
+}
